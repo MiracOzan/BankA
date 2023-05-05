@@ -12,6 +12,6 @@ namespace DataAccess.Concrete
         }
 
         public DbSet<CustomerAccount> CustomerAccounts { get; set; }
-       
+        public DbSet<CustomerAccountProcess> CustomerAccountProcesss { get; set; }
     }
 }

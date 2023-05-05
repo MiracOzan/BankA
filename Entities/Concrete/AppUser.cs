@@ -8,5 +8,6 @@ namespace Entities.Concrete
         public string Surname { get; set; }
         public string District { get; set; }
         public string ImageUrl { get; set; }
+        public List<CustomerAccount> CustomerAccounts { get; set; }
     }
 }
