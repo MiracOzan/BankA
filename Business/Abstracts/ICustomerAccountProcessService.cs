@@ -5,9 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccess.Abstracts
+namespace Business.Abstracts
 {
-    public interface ICustomerAccountProcess : IGenericDal<CustomerAccountProcess>
+    public interface ICustomerAccountProcessService : IGenericService<CustomerAccountProcess>
     {
+
     }
 }
